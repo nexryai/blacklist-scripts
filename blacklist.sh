@@ -27,8 +27,33 @@ else
     # badips.com, from score 2 up
     URLS="$URLS http://www.badips.com/get/list/ssh/2"
 
-    # iblocklist.com is also supported
-    # URLS="$URLS http://list.iblocklist.com/?list=srzondksmjuwsvmgdbhi&fileformat=p2p&archiveformat=gz&username=USERNAMEx$&pin=PIN"
+    #iblocklist.com is also supported
+    URLS="$URLS http://list.iblocklist.com/?list=srzondksmjuwsvmgdbhi&fileformat=p2p&archiveformat=gz&username=USERNAMEx$&pin=PIN"
+    
+    #以下、独自に追加したリスト Below is the list I added
+    URLS="$URLS ciarmy.com/list/ci-badguys.txt"
+    URLS="$URLS http://blocklist.greensnow.co/greensnow.txt"
+    URLS="$URLS http://charles.the-haleys.org/ssh_dico_attack_hdeny_format.php/hostsdeny.txt"
+    URLS="$URLS http://cinsscore.com/list/ci-badguys.txt"
+    URLS="$URLS http://www.joewein.net/dl/bl/dom-bl-base.txt"
+    URLS="$URLS http://www.joewein.net/dl/bl/dom-bl.txt"
+    URLS="$URLS http://www.malwaredomainlist.com/hostslist/ip.txt"
+    URLS="$URLS http://dns-bh.sagadc.org/dynamic_dns.txt"
+    URLS="$URLS https://feeds.dshield.org/top10-2.txt"
+    URLS="$URLS http://malc0de.com/bl/IP_Blacklist.txt"
+    URLS="$URLS http://malwaredomains.lehigh.edu/files/domains.txt"
+    URLS="$URLS https://multiproxy.org/txt_all/proxy.txt"
+    URLS="$URLS http://osint.bambenekconsulting.com/feeds/c2-masterlist.txt"
+    URLS="$URLS http://rules.emergingthreats.net/open/suricata/rules/compromised-ips.txt"
+    URLS="$URLS https://sblam.com/blacklist.txt"
+    URLS="$URLS http://www.spamhaus.org/drop/drop.txt"
+    URLS="$URLS http://www.spamhaus.org/drop/edrop.txt"
+    URLS="$URLS http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt"
+    URLS="$URLS https://isc.sans.edu/feeds/topips.txt"
+    URLS="$URLS https://myip.ms/files/blacklist/htaccess/latest_blacklist.txt"
+
+    
+
 fi
 
 link_set () {
